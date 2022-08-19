@@ -28,6 +28,10 @@
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul,
 li,
 a {
@@ -165,7 +169,6 @@ ul {
 
 .Myname {
   display: grid;
- 
 }
 
 .btnsettings {
@@ -174,21 +177,18 @@ ul {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  display:grid;
+  display: grid;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   background: #ff6b00;
   color: #fff;
-  border:2px black solid;
+  border: 2px black solid;
   padding: 10px;
   width: 150px;
   justify-content: center;
   margin: 10px 0 20px 26px;
-
 }
-
-
 
 .container {
   display: grid;
@@ -226,7 +226,8 @@ ul {
   color: #fff;
 }
 
-.lingos, #btn2:hover{
+.lingos,
+#btn2:hover {
   background-color: #3c3a39;
   transition-delay: 0.1s;
   font-size: larger;
@@ -264,31 +265,24 @@ ul {
   transition-duration: 0.4s;
 }
 
-.oversight:active{
-background: #FF6B00;
-position: absolute;
+.oversight:active {
+  background: #ff6b00;
+  position: absolute;
 }
 
-.oversight:disabled{
+.oversight:disabled {
   color: black;
   background-color: #dbd8d7;
 }
 
- button:hover{
+button:hover {
   font-size: 20px;
 }
 
-#btn:hover{
+#btn:hover {
   transition-duration: 0.8s;
-  width:100px
+  width: 100px;
 }
-
-
-
- 
-
-
-
 
 .About-me {
   background-color: #1c1a19;
@@ -343,14 +337,14 @@ position: absolute;
   color: #fff;
 }
 
-.resume:disabled{
+.resume:disabled {
   background-color: #dbd8d7;
   color: #3c3a39;
 }
 
-.resume:hover{
+.resume:hover {
   background-color: bisque;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .underline {
@@ -399,8 +393,4 @@ position: absolute;
   align-items: center;
   text-align: center;
   color: #fff;
-}
-
-a {
-  text-decoration: none;
 }
