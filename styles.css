@@ -98,13 +98,14 @@ ul {
 
 /* new branch css starts here */
 .recent {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template: columns;
+  align-items: center;
 }
 
 .recent-item {
   justify-content: center;
-  display: flex;
+  display: grid;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -162,24 +163,32 @@ ul {
   padding: 5px 10px;
 }
 
+.Myname {
+  display: grid;
+ 
+}
+
 .btnsettings {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
+  display:grid;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   background: #ff6b00;
   color: #fff;
-  border: none;
+  border:2px black solid;
   padding: 10px;
   width: 150px;
   justify-content: center;
   margin: 10px 0 20px 26px;
+
 }
+
+
 
 .container {
   display: grid;
@@ -191,7 +200,7 @@ ul {
   background-image: url(images/placeholder.png);
   background-size: cover;
   flex-direction: column;
-  display: flex;
+  display: grid;
   padding-left: 13px;
 }
 
@@ -215,6 +224,12 @@ ul {
   line-height: 20px;
   background-color: #ffffff4d;
   color: #fff;
+}
+
+.lingos, #btn2:hover{
+  background-color: #3c3a39;
+  transition-delay: 0.1s;
+  font-size: larger;
 }
 
 .cont-text {
@@ -243,7 +258,37 @@ ul {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  transition-duration: 0.4s;
 }
+
+.oversight:active{
+background: #FF6B00;
+position: absolute;
+}
+
+.oversight:disabled{
+  color: black;
+  background-color: #dbd8d7;
+}
+
+ button:hover{
+  font-size: 20px;
+}
+
+#btn:hover{
+  transition-duration: 0.8s;
+  width:100px
+}
+
+
+
+ 
+
+
+
 
 .About-me {
   background-color: #1c1a19;
@@ -289,10 +334,23 @@ ul {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  background: #ff6b00;
   border: none;
-  color: #fff;
   margin-top: 14px;
+}
+
+.resume:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.resume:disabled{
+  background-color: #dbd8d7;
+  color: #3c3a39;
+}
+
+.resume:hover{
+  background-color: bisque;
+  color: #FF6B00;
 }
 
 .underline {
@@ -341,4 +399,8 @@ ul {
   align-items: center;
   text-align: center;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
 }
