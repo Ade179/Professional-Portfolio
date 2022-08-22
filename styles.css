@@ -247,6 +247,7 @@ ul {
 .lang {
   margin-bottom: 20px;
   display: flex;
+  float: left;
 }
 
 .oversight {
