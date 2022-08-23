@@ -476,11 +476,11 @@ form {
   text-align: center;
   color: #172b4d;
   display: contents;
- 
-
 }
-.interest, h5{
-  padding-right:7px ;
+
+.interest,
+h5 {
+  padding-right: 7px;
   padding-left: 7px;
   font-size: 32px;
   line-height: 44px;
@@ -489,7 +489,6 @@ form {
   align-items: center;
   justify-content: center;
 }
-
 
 input[type=text] {
   background: transparent;
@@ -523,7 +522,7 @@ textarea {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #ffffff;
+  background: #fff;
   padding: 12px;
 }
 
@@ -623,7 +622,7 @@ input .inputs {
 }
 
 .feet {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .ikes {
