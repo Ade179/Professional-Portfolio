@@ -249,10 +249,11 @@
                 so if you'd like to chat please get in touch.</h5>
         </div>
         <div class="all">
-            <div><input type="text" placeholder="Full name" required class="inputs"></div>
-            <div><input type="email" placeholder="Email" required class="inputs"></div>
-            <div class="text-cont"><textarea name="message" placeholder="Enter your text here" required
-                    class="ta"></textarea> </div>
+            <div><input type="text" placeholder="Full name" maxlength="30" class="inputs" name="user-name" required>
+            </div>
+            <div><input type="email" placeholder="Email" class="inputs" name="e-mail" required></div>
+            <div class="text-cont"><textarea name="message" placeholder="Enter your text here" maxlength="500"
+                    class="ta" required></textarea> </div>
             <button type="submit" id="get-me" required class="btz">Get in touch</button>
         </div>
     </form>
@@ -267,12 +268,6 @@
             <li class="ikes" id="foots"><a href=""><i class="fa-brands fa-twitter"></i></a></i></li>
         </ul>
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>
