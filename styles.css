@@ -476,11 +476,11 @@ form {
   text-align: center;
   color: #172b4d;
   display: contents;
-}
+ 
 
-.interest,
-h5 {
-  padding-right: 7px;
+}
+.interest, h5{
+  padding-right:7px ;
   padding-left: 7px;
   font-size: 32px;
   line-height: 44px;
@@ -490,7 +490,9 @@ h5 {
   justify-content: center;
 }
 
+
 input[type=text] {
+  background: transparent;
   border: none;
   border-bottom: 1px solid #000;
   margin-top: 120px;
@@ -498,6 +500,7 @@ input[type=text] {
 }
 
 input[type=email] {
+  background: transparent;
   border: none;
   border-bottom: 1px solid #000;
   margin-top: 40px;
@@ -520,6 +523,7 @@ textarea {
   right: 0;
   top: 0;
   bottom: 0;
+  background: #ffffff;
   padding: 12px;
 }
 
