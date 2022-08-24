@@ -581,15 +581,7 @@ input .inputs {
 }
 
 .btz:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 93px;
-  height: 48px;
-  left: 252px;
-  top: calc(50% - 48px / 2 + 46.5px);
+  color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
 }
@@ -610,7 +602,7 @@ input .inputs {
 }
 
 .border {
-  border: 1px solid black;
+  border: 1px solid #dfe1e6;
   margin-bottom: 8px;
 }
 
