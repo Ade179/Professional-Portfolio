@@ -599,7 +599,7 @@ input .inputs {
 }
 
 #foots {
-  background: #505f79;
+  color: #505f79;
 }
 
 .footer-icons {
@@ -610,7 +610,6 @@ input .inputs {
   right: 0.01%;
   top: 0%;
   bottom: 0%;
-  color: #505f79;
   margin-bottom: 23px;
 }
 
@@ -621,4 +620,5 @@ input .inputs {
 .ikes {
   width: 20px;
   height: 20px;
+  color: #505f79;
 }
