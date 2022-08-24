@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -507,23 +506,14 @@ input[type=email] {
   margin-bottom: 40px;
 }
 
-.text-cont {
-  position: relative;
-  width: 327px;
-  height: 114px;
-  display: flex;
-  justify-content: center;
-}
-
 textarea {
   width: 303px;
   height: 90px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  padding: 12px;
+  background: #fbf8f7;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 1%;
+  margin-bottom: 24px;
 }
 
 .all {
@@ -541,6 +531,9 @@ input .inputs {
 .btz {
   width: 107px;
   height: 24px;
+  color: white;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .btz:enabled {
@@ -549,8 +542,8 @@ input .inputs {
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 93px;
-  height: 48px;
+  width: 130px;
+  height: 40px;
   left: 100px;
   top: calc(50% - 48px / 2 + 46.5px);
   background: #f55800;
