@@ -117,7 +117,6 @@
   }
 }
 
-
 /* new branch css starts here */
 .recent {
   display: grid;
@@ -481,7 +480,6 @@
     margin-right: 30px;
   }
 }
-
 
 /* new branch css stats here */
 form {
@@ -970,9 +968,7 @@ input .inputs {
     background-position: 100% 1%;
   }
 
-
   /* done */
-
   .underline {
     display: none;
   }
