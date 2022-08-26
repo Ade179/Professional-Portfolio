@@ -704,7 +704,7 @@ input .inputs {
   }
 
   ul.skills {
-    gap: 24px;
+    gap: 6px;
     margin-bottom: 24px;
   }
 
@@ -793,7 +793,7 @@ input .inputs {
   }
 
   #yellow {
-    width: 684px;
+    width: 570px;
     height: 448px;
   }
 
