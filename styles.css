@@ -812,6 +812,14 @@ input .inputs {
     height: 448px;
   }
 
+  #yellow:hover{
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+  
+}
+
+
   .stories {
     width: 448px;
     height: 48px;
