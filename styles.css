@@ -85,6 +85,12 @@
     order: 0;
   }
 
+  .fa.fa-linkedin {
+    font-family: "Font Awesome 6 Brands", sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+
   .developer {
     width: auto;
     height: auto;
@@ -133,6 +139,7 @@
   font-size: 40px;
   line-height: 52px;
   margin-top: 120px;
+  margin-bottom: 24px;
 }
 
 .line {
@@ -143,6 +150,7 @@
 .yellowboard {
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
 
 .topic {
@@ -158,6 +166,9 @@
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
+  width: 327px;
+  height: 26px;
+  margin-bottom: 15px;
 }
 
 .stories-text {
@@ -167,6 +178,8 @@
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
 .skills {
@@ -200,11 +213,11 @@
   letter-spacing: 0.03em;
   background: #ff6b00;
   color: #fff;
-  border: 2px black solid;
   padding: 10px;
   width: 150px;
   justify-content: center;
-  margin: 10px 0 20px 26px;
+  margin: 10px 0 20px 0;
+  border: none;
 }
 
 .container {
@@ -265,6 +278,7 @@
   margin-bottom: 20px;
   display: flex;
   float: left;
+  gap: 12px;
 }
 
 .oversight {
@@ -279,6 +293,7 @@
   justify-content: center;
   width: 100%;
   position: relative;
+  border: none;
 }
 
 #first:disabled {
@@ -793,7 +808,7 @@ input .inputs {
   }
 
   #yellow {
-    width: 570px;
+    width: 600px;
     height: 448px;
   }
 
