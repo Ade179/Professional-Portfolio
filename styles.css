@@ -774,6 +774,7 @@ input .inputs {
     background-image: url(images/Illustration-header.png);
     background-repeat: no-repeat;
     background-position: 100%;
+    background-size: 10%;
   }
 
   .divide {
