@@ -1103,7 +1103,8 @@ input .inputs {
     margin-top: 20px;
   }
 }
-/*Accesibility*/
+ /* Accesibility */ 
+
 .name:hover {
   color: brown;
   font-size: 70px;
@@ -1118,11 +1119,11 @@ input .inputs {
 .headline-sect:hover {
   font-size: 30px;
 }
+
 .headline-sect li {
   color: brown;
 }
 
-
 #yellow {
-  filter: contrast(.90);
+  filter: contrast(0.9);
 }
