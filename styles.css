@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
 }
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -124,6 +125,7 @@
 }
 
 /* new branch css starts here */
+
 .recent {
   display: grid;
   grid-template: columns;
@@ -774,7 +776,7 @@ input .inputs {
     background-image: url(images/Illustration-header.png);
     background-repeat: no-repeat;
     background-position: 100%;
-    background-size: 10%;
+    background-size: 50%;
   }
 
   .divide {
@@ -1102,3 +1104,5 @@ input .inputs {
     margin-top: 20px;
   }
 }
+/*Accesibility*/
+
