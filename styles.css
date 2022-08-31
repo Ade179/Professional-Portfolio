@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- 
 }
 
 @media (min-width: 0) and (max-width: 768px) {
@@ -24,7 +23,7 @@
   .name {
     width: 77px;
     height: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -75,7 +74,7 @@
   }
 
   .intro {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
@@ -95,7 +94,7 @@
   .developer {
     width: auto;
     height: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -114,7 +113,7 @@
   }
 
   .abilities {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -135,7 +134,7 @@
 .recent-item {
   justify-content: center;
   display: grid;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -162,7 +161,7 @@
 }
 
 .stories {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -174,7 +173,7 @@
 }
 
 .stories-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -189,7 +188,7 @@
 }
 
 .js {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -204,7 +203,7 @@
 }
 
 .btnsettings {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -237,7 +236,7 @@
 }
 
 .cont-header {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 38px;
@@ -250,7 +249,7 @@
   border: none;
   padding: 5px 10px;
   font-size: 19px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
@@ -266,7 +265,7 @@
 }
 
 .cont-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -287,7 +286,7 @@
   background: #ff6b00;
   padding: 10px;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 17px;
   line-height: 24px;
@@ -299,7 +298,7 @@
 }
 
 #first:disabled {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -313,7 +312,7 @@
 }
 
 #first:active {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -326,7 +325,7 @@
 }
 
 #first:hover {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -339,7 +338,7 @@
 }
 
 .oversight:disabled {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -353,7 +352,7 @@
 }
 
 .oversight:hover {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -366,7 +365,7 @@
 }
 
 .oversight:active {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -395,7 +394,7 @@
   .lang-heading {
     display: flex;
     align-items: baseline;
-    font-family: 'InaiMathi', sans-serif;
+    font-family: "InaiMathi", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -414,7 +413,7 @@
   }
 
   .jss {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -446,7 +445,7 @@
   }
 
   .bou-me {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -456,7 +455,7 @@
   }
 
   .abt-text {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -523,12 +522,12 @@ h5 {
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-items: center;
   justify-content: center;
 }
 
-input[type=text] {
+input[type="text"] {
   background: transparent;
   border: none;
   border-bottom: 1px solid #000;
@@ -536,7 +535,7 @@ input[type=text] {
   width: 300px;
 }
 
-input[type=email] {
+input[type="email"] {
   background: transparent;
   border: none;
   border-bottom: 1px solid #000;
@@ -553,7 +552,7 @@ textarea {
   margin-bottom: 24px;
   border: none;
   padding: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -588,7 +587,7 @@ input .inputs {
   font-size: 17px;
   line-height: 24px;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .btz:enabled {
@@ -607,7 +606,7 @@ input .inputs {
 .btz:disabled {
   width: 69px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -628,7 +627,7 @@ input .inputs {
 .btz:active {
   width: 69px;
   height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -703,7 +702,7 @@ input .inputs {
     padding-left: 26px;
     width: 92px;
     height: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -738,7 +737,7 @@ input .inputs {
     padding-left: 26px;
     width: 92px;
     height: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -754,7 +753,7 @@ input .inputs {
     display: flex;
     gap: 32px;
     padding-right: 32px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -824,7 +823,7 @@ input .inputs {
   .stories {
     width: 448px;
     height: 48px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -884,7 +883,7 @@ input .inputs {
   h1 {
     width: 450px;
     height: 160px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -895,7 +894,7 @@ input .inputs {
   .developer {
     width: 566px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -907,7 +906,7 @@ input .inputs {
   .abilities {
     width: 566px;
     height: 123px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -936,7 +935,7 @@ input .inputs {
   .abt-text {
     width: 566px;
     height: 148px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -947,7 +946,7 @@ input .inputs {
   h3.bou-me {
     width: 566px;
     height: 78px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -964,7 +963,7 @@ input .inputs {
   }
 
   .resume {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1010,7 +1009,7 @@ input .inputs {
   .langlist {
     width: 114px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -1024,7 +1023,7 @@ input .inputs {
   .interest h5 {
     width: 455px;
     height: 256px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1041,7 +1040,7 @@ input .inputs {
   .iconic {
     width: 228px;
     height: 24px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1062,7 +1061,7 @@ input .inputs {
     width: 600px;
   }
 
-  input[type=text] {
+  input[type="text"] {
     background: transparent;
     border: none;
     border-bottom: 1px solid #000;
@@ -1071,7 +1070,7 @@ input .inputs {
     justify-content: flex-start;
   }
 
-  input[type=email] {
+  input[type="email"] {
     background: transparent;
     border: none;
     border-bottom: 1px solid #000;
@@ -1093,7 +1092,7 @@ input .inputs {
   .lang-heading {
     display: flex;
     align-items: baseline;
-    font-family: 'InaiMathi', sans-serif;
+    font-family: "InaiMathi", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1105,4 +1104,20 @@ input .inputs {
   }
 }
 /*Accesibility*/
+.name:hover {
+  color: brown;
+  font-size: 70px;
+}
 
+.fa.fa-linkedin {
+  font-family: "Font Awesome 6 Brands", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.headline-sect:hover {
+  font-size: 30px;
+}
+.headline-sect li {
+  color: brown;
+}
