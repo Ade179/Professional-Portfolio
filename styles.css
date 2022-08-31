@@ -1121,3 +1121,8 @@ input .inputs {
 .headline-sect li {
   color: brown;
 }
+
+
+#yellow {
+  filter: contrast(.90);
+}
