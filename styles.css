@@ -1088,6 +1088,7 @@
     background: #f55800;
     color: #fff;
     justify-content: center;
+    border: none;
   }
 
   #underline {
@@ -1185,6 +1186,8 @@
     margin-right: 20%;
     margin-bottom: 24px;
     background: #fbf8f7;
+    height: 114px;
+    padding: 2.5%;
   }
 
   button.btz {
