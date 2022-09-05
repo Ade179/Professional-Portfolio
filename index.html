@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <a href="" class="name">Daniel</a>
-        <nav class="hamburger"><i class="fas fa-bars"></i></nav>
+        <button class="nav-toggle"><span class="hamburger"></span></button>
         <!--desktop-->
 
         <ul class="headline-sect">
@@ -22,6 +22,14 @@
             <li><a href="">Contact</a></li>
             <li><img src="Images/Union.png" alt="message-icon"></li>
         </ul>
+        <!-- Mobile hamburger -->
+        <nav class="navigation">
+            <ul class="nav-items">
+                <li class="nav-list"><a href="#move">Portfolio</a></li>
+                <li class="nav-list"><a href="#About-me">About</a></li>
+                <li class="nav-list"><a href="#form">Contact</a></li> 
+            </ul>
+        </nav>
     </header>
 
     <section class="cont-alls">
@@ -199,7 +207,7 @@
 
 </article>
    
-      <section class="About-me">
+      <section class="About-me" id="About-me">
         <div class="picfix">
             <div class="moved">
                 <div class="abt">
@@ -258,7 +266,7 @@
 
     </section>  
  
-    <form action="https://formspree.io/f/mlevdeoa" method="post" class="contact-form">
+    <form action="https://formspree.io/f/mlevdeoa" method="post" class="contact-form" id="form">
         <div class="interest">
             <h5>I'm always interested in hearing about new projects,
                 so if you'd like to chat please get in touch.</h5>

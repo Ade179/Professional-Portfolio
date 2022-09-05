@@ -16,6 +16,78 @@
     width: auto;
   }
 
+  .nav-toggle {
+    padding: 0.5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 35px;
+    z-index: 1000;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #3c3a39;
+    color: #fff5e1;
+    z-index: 100;
+    transform: translateX(0%);
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30%;
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .nav-list {
+    border-bottom: 1px solid #6f6c6b;
+    width: 94%;
+    padding-left: 1rem;
+    margin-right: 10%;
+    padding-bottom: 0.5rem;
+    margin-top: 10px;
+  }
+
+  .nav-list > a {
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    background: #fff;
+    width: 20px;
+    height: 2.5px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .hamburger::before { top: 6px; }
+  .hamburger::after { bottom: 6px; }
+
   .for-desk {
     display: none;
   }
