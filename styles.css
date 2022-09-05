@@ -1182,7 +1182,6 @@
 
   textarea {
     width: 500px;
-    height: 90px;
     margin-right: 20%;
     margin-bottom: 24px;
     background: #fbf8f7;
@@ -1324,3 +1323,5 @@
 #yellow {
   filter: contrast(0.9);
 }
+
+/* for media windows */
