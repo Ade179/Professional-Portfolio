@@ -44,7 +44,11 @@ html {
     background-color: #3c3a39;
     color: #fff5e1;
     z-index: 100;
-    transform: translateX(100%);
+    display: none;
+  }
+
+  .onOpen {
+    display: block;
   }
 
   .nav-items {

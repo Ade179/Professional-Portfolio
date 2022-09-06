@@ -1,11 +1,15 @@
 const hamburger = document.querySelector('.nav-toggle');
 const navigator = document.querySelectorAll('.nav-list > a');
+const navigation = document.querySelector('.navigation');
+
 hamburger.addEventListener('click', () => {
-  document.body.classList.toggle('active');
+ hamburger.classList.toggle('active');
+ navigation.classList.toggle('onOpen');
 });
 
 navigator.forEach((links) => {
   links.addEventListener('click', () => {
-    document.body.classList.remove('active');
+   navigation.classList.remove('onOpen');
+   hamburger.classList.remove('active')
   });
 });
