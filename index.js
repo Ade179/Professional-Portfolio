@@ -6,6 +6,6 @@ hamburger.addEventListener('click', () => {
 
 navigator.forEach((links) => {
   links.addEventListener('click', () => {
-    document.body.classList.remove('active');
+    document.body.classList.remove('');
   });
 });
