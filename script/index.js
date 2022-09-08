@@ -106,19 +106,19 @@ stories.textContent = projectsArray[0].title;
 const storiesText = document.querySelector('.stories-text');
 storiesText.textContent = projectsArray[0].description;
 const jsArray = document.querySelectorAll('.js');
-jsArray[0].textContent = projectsArray[0].langauges1
+jsArray[0].textContent = projectsArray[0].languages1
 jsArray[1].textContent = projectsArray[0].languages2
 jsArray[2].textContent = projectsArray[0].languages3
 
 
 // Pop up for the first first card
-const firstCardPopUp = document.getElementById('first');
+const firstCardPopUp = document.getElementById('#first');
 firstCardPopUp.addEventListener ('click', ()=> {
 const trackKeeping = document.querySelector ('.trackkeeping')
-trackKeeping.textContent = projectsArray[0].title 
+trackKeeping.textContent = projectsArray[0].title; 
 const langUsed = document.querySelectorAll ('.desknewlang')
-langUsed[0].textcontent = projectsArray[0].langauges1;
-langUsed[1].textcontent = projectsArray[0].langauges2;
+langUsed[0].textcontent = projectsArray[0].languages1;
+langUsed[1].textcontent = projectsArray[0].languages2;
 langUsed[2].textcontent = projectsArray[0].languages3;
 const popUPImage = document.querySelector ('.pop-up-image');
 popUPImage.src = projectsArray[0].image;
@@ -127,6 +127,11 @@ thetxt.textcontent = projectsArray[0].description;
 const liveLink = document.querySelector('.live-link');
 liveLink.href = projectsArray[0]["link to live version"];
 const sourceLink  = document.querySelector ('.source-link');
-sourceLink.href = projectsArray[0]["link to source"]
-document.querySelector('.popupcontainer').style.display = 'block'
+sourceLink.href = projectsArray[0]["link to source"];
+document.querySelector('.popupcontainer').style.display = 'block';
 })
+// Close Pop up
+const closePopup = document.querySelector('.close-button');
+closePopup.addEventListener('click', () => {
+  document.querySelector('.popupcontainer').style.display = 'none';
+});

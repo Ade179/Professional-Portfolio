@@ -164,8 +164,6 @@ html {
     display: none;
   }
 
-
-
   @media (min-width: 0) and (max-width: 768px) {
     .headline {
       display: flex;
@@ -238,9 +236,9 @@ html {
       left: 0;
       z-index: 1000;
       background-color: rgba(0, 0, 0, 0.7);
-      display:none;
+      display: none;
     }
-    
+
     .modalwindowcontainer {
       background-color: #fff;
       margin: 5% 5%;
@@ -262,11 +260,7 @@ html {
       right: 30px;
       cursor: pointer;
       transition: font-size ease-in-out 0.75s;
-  
   }
-
-
-
 
     /* new branch css starts here */
 
