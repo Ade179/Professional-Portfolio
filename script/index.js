@@ -112,22 +112,19 @@ jsArray[2].textContent = projectsArray[0].languages3
 
 
 // Pop up for the first first card
-const firstCardPopUp = document.getElementById('#first');
+const firstCardPopUp = document.querySelector('.btnsettings');
 firstCardPopUp.addEventListener ('click', ()=> {
-const trackKeeping = document.querySelector ('.trackkeeping')
-trackKeeping.textContent = projectsArray[0].title; 
-const langUsed = document.querySelectorAll ('.desknewlang')
-langUsed[0].textcontent = projectsArray[0].languages1;
-langUsed[1].textcontent = projectsArray[0].languages2;
-langUsed[2].textcontent = projectsArray[0].languages3;
-const popUPImage = document.querySelector ('.pop-up-image');
-popUPImage.src = projectsArray[0].image;
-const thetxt = document.querySelector('.thetxt');
-thetxt.textcontent = projectsArray[0].description;
-const liveLink = document.querySelector('.live-link');
-liveLink.href = projectsArray[0]["link to live version"];
-const sourceLink  = document.querySelector ('.source-link');
-sourceLink.href = projectsArray[0]["link to source"];
+  const trackkeeping = document.querySelector('.trackkeeping');
+  trackkeeping.textContent = projectsArray[0].title;
+  const desknewLang = document.querySelectorAll ('.desknewLang');
+  desknewLang[0].textContent = projectsArray[0].languages1;
+  desknewLang[1].textContent = projectsArray[0].languages2;
+  desknewLang[2].textContent = projectsArray[0].languages3;
+  const imgpopup = document.querySelector('.img-popup');
+  imgpopup.src = projectsArray[0].image;
+  const thetxt = document.querySelector('.thetxt');
+  thetxt.textContent = projectsArray[0].description;
+
 document.querySelector('.popupcontainer').style.display = 'block';
 })
 // Close Pop up
