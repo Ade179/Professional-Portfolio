@@ -95,7 +95,7 @@ const projectsArray = [{
 },
 {
   id: 'Card6',
-  title: 'website portfolio',
+  title: 'Website Portfolio',
   description: `A daily section of privately personalized reads; no accounts or signups required.
                 This has been the industry's standard dummy text ever since the 1500s, when an
                 unknown printer took a standard dummy text.`,
@@ -144,6 +144,47 @@ const jsArray = document.querySelectorAll('.js');
 jsArray[0].textContent = projectsArray[0].languages1;
 jsArray[1].textContent = projectsArray[0].languages2;
 jsArray[2].textContent = projectsArray[0].languages3;
+
+// The texts for the placeholder cards
+
+const cardholderstitle = document.querySelectorAll('#cont-header1');
+cardholderstitle[0].textContent = projectsArray[1].title;
+cardholderstitle[1].textContent = projectsArray[1].title;
+cardholderstitle[2].textContent = projectsArray[1].title;
+const cardholdertext = document.querySelectorAll('#cont-text');
+cardholdertext[0].textContent = projectsArray[1].description;
+cardholdertext[1].textContent = projectsArray[1].description;
+cardholdertext[2].textContent = projectsArray[1].description;
+const btn2 = document.querySelectorAll('#btn2');
+btn2[0].textContent = projectsArray[1].languages1;
+btn2[1].textContent = projectsArray[1].languages2;
+btn2[2].textContent = projectsArray[1].languages3;
+btn2[3].textContent = projectsArray[1].languages1;
+btn2[4].textContent = projectsArray[1].languages2;
+btn2[5].textContent = projectsArray[1].languages3;
+btn2[6].textContent = projectsArray[1].languages1;
+btn2[7].textContent = projectsArray[1].languages2;
+btn2[8].textContent = projectsArray[1].languages3;
+btn2[9].textContent = projectsArray[1].languages1;
+btn2[10].textContent = projectsArray[1].languages2;
+btn2[11].textContent = projectsArray[1].languages3;
+btn2[12].textContent = projectsArray[1].languages1;
+btn2[13].textContent = projectsArray[1].languages2;
+btn2[14].textContent = projectsArray[1].languages3;
+btn2[15].textContent = projectsArray[1].languages1;
+btn2[16].textContent = projectsArray[1].languages2;
+btn2[17].textContent = projectsArray[1].languages3;
+
+const Newcardholdertitile = document.querySelectorAll('#cont-header2');
+Newcardholdertitile[0].textContent = projectsArray[4].title;
+Newcardholdertitile[1].textContent = projectsArray[4].title;
+const Newcardholdertext = document.querySelectorAll('#cont-text2');
+Newcardholdertext[0].textContent = projectsArray[4].description;
+Newcardholdertext[1].textContent = projectsArray[4].description;
+const latestcardholdertitle = document.querySelector('#cont-header3');
+latestcardholdertitle.textContent = projectsArray[5].title;
+const latestcardholdertext = document.querySelector('#cont-text3');
+latestcardholdertext.textContent = projectsArray[6].description;
 
 // Pop up for the first first card
 

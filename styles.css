@@ -234,8 +234,9 @@ html {
     right: 0;
     left: 0;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
     display: none;
+    backdrop-filter: 10px;
   }
 
   .extended {
@@ -247,6 +248,7 @@ html {
     margin: 5% 5%;
     padding: 16px;
     height: 100%;
+    overflow: hidden;
   }
 
   .popup-header {
@@ -284,7 +286,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+    padding: 7px;
     gap: 24px;
     width: 343px;
     left: calc(50% - 343px / 2);
@@ -363,6 +365,7 @@ html {
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+    gap: 2px;
   }
 
   .fa-github::before {
@@ -1188,6 +1191,7 @@ html {
     justify-content: flex-start;
     margin-left: 16px;
     gap: 24px;
+    padding-top: 30px;
   }
 
   #first {
@@ -1559,7 +1563,7 @@ html {
     right: 0;
     left: 0;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
     display: none;
     backdrop-filter: blur (30px);
   }
@@ -1570,10 +1574,10 @@ html {
 
   .desktmodalwindowcontainer {
     background-color: #fff;
-    margin: 5% 5%;
+    margin: 5% auto;
     padding: 16px;
-    height: 80%;
-    width: 80%;
+    height: 76%;
+    width: 70%;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
@@ -1615,7 +1619,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 10px;
     gap: 24px;
     width: 100px;
     left: calc(50% - 343px / 2);
@@ -1630,7 +1634,7 @@ html {
 
   .desktimg-popup {
     width: 550px;
-    height: 330px;
+    height: 360px;
     top: 156px;
   }
 
@@ -1653,6 +1657,7 @@ html {
   .desktlivedisplay {
     display: flex;
     gap: 19px;
+    margin-top: 158px;
   }
 
   .desktcardbutton1 {
@@ -1694,6 +1699,7 @@ html {
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+    gap: 2px;
   }
 
   .fa-github::before {
