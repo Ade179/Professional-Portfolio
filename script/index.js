@@ -124,6 +124,7 @@ const projectsArray = [{
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
 },
 ];
+
 // Close Pop up
 const closePopup = document.querySelector('.close-button');
 closePopup.addEventListener('click', () => {
@@ -421,4 +422,25 @@ newCardPopup[5].addEventListener('click', () => {
 
   document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
+});
+
+// form validation
+
+function valid() {
+  const email = document.getElementById('email').value;
+  const validatedEmail = email.toLowerCase();
+  if (validatedEmail === email) {
+    document.querySelector('.error').textContent = '';
+    return true;
+  }
+  document.querySelector('.error').textContent = 'Email address should be in Lowercase.';
+  return false;
+}
+
+// stop button default action
+const form = document.querySelector('form');
+form.addEventListener('submit', (e) => {
+  if (valid() === false) {
+    e.preventDefault();
+  }
 });
