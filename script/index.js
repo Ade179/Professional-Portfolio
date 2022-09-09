@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.nav-toggle');
 const navigator = document.querySelectorAll('.nav-list > a');
-const navigation = document.querySelector('.navigation'); 00000
+const navigation = document.querySelector('.navigation');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -10,7 +10,7 @@ hamburger.addEventListener('click', () => {
 navigator.forEach((links) => {
   links.addEventListener('click', () => {
     navigation.classList.remove('onOpen');
-    hamburger.classList.remove('active')
+    hamburger.classList.remove('active');
   });
 });
 
@@ -22,14 +22,14 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: 'Keeping track of hundreds  of components website',
   image: './images/bigyellow.png',
-  deskImage: 'images/desktopsnapshoot.png',
+  deskImage: './images/bigyellow.png',
   desktexts: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
   seeLive: 'https://ade179.github.io/Professional-Portfolio/',
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-  
+
 },
 {
   id: 'Card2',
@@ -39,13 +39,13 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
   seeLive: 'https://ade179.github.io/Professional-Portfolio/',
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-  
+
 },
 {
   id: 'Card3',
@@ -55,7 +55,7 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
@@ -71,7 +71,7 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
@@ -86,7 +86,7 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
@@ -101,7 +101,7 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
@@ -116,14 +116,14 @@ const projectsArray = [{
                 unknown printer took a standard dummy text.`,
   deskDescription: '',
   image: './images/placeholder.png',
-  deskImage: '',
+  deskImage: './images/placeholder.png',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
   seeLive: 'https://ade179.github.io/Professional-Portfolio/',
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
 },
-]
+];
 // Close Pop up
 const closePopup = document.querySelector('.close-button');
 closePopup.addEventListener('click', () => {
@@ -136,16 +136,14 @@ desktclosePopup.addEventListener('click', () => {
   document.querySelector('.desktpopupcontainer').classList.remove('expanded');
 });
 
-
 const stories = document.querySelector('.stories');
 stories.textContent = projectsArray[0].title;
 const storiesText = document.querySelector('.stories-text');
 storiesText.textContent = projectsArray[0].description;
 const jsArray = document.querySelectorAll('.js');
-jsArray[0].textContent = projectsArray[0].languages1
-jsArray[1].textContent = projectsArray[0].languages2
-jsArray[2].textContent = projectsArray[0].languages3
-
+jsArray[0].textContent = projectsArray[0].languages1;
+jsArray[1].textContent = projectsArray[0].languages2;
+jsArray[2].textContent = projectsArray[0].languages3;
 
 // Pop up for the first first card
 
@@ -179,12 +177,11 @@ firstCardPopUp.addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});
 
-
-//for second card
+// for second card
 const newCardPopup = document.querySelectorAll('.oversight');
 
 newCardPopup[0].addEventListener('click', () => {
@@ -208,7 +205,7 @@ newCardPopup[0].addEventListener('click', () => {
   imgpopup.src = projectsArray[1].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[1].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -216,10 +213,9 @@ newCardPopup[0].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
-
+});
 
 newCardPopup[1].addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');
@@ -242,7 +238,7 @@ newCardPopup[1].addEventListener('click', () => {
   imgpopup.src = projectsArray[2].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[1].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -250,9 +246,9 @@ newCardPopup[1].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});
 
 newCardPopup[2].addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');
@@ -275,7 +271,7 @@ newCardPopup[2].addEventListener('click', () => {
   imgpopup.src = projectsArray[3].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[2].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -283,9 +279,9 @@ newCardPopup[2].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});
 
 newCardPopup[3].addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');
@@ -308,7 +304,7 @@ newCardPopup[3].addEventListener('click', () => {
   imgpopup.src = projectsArray[4].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[3].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -316,9 +312,9 @@ newCardPopup[3].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});
 
 newCardPopup[4].addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');
@@ -341,7 +337,7 @@ newCardPopup[4].addEventListener('click', () => {
   imgpopup.src = projectsArray[5].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[4].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -349,9 +345,9 @@ newCardPopup[4].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});
 
 newCardPopup[5].addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');
@@ -374,7 +370,7 @@ newCardPopup[5].addEventListener('click', () => {
   imgpopup.src = projectsArray[6].image;
 
   const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[0].deskImage;
+  imgpopupDesk.src = projectsArray[5].deskImage;
 
   const thetxt = document.querySelector('.thetxt');
   thetxt.textContent = projectsArray[0].description;
@@ -382,6 +378,6 @@ newCardPopup[5].addEventListener('click', () => {
   const thetxtDesk = document.querySelector('.desktthetxt');
   thetxtDesk.textContent = projectsArray[0].description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded')
+  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
   document.querySelector('.popupcontainer').classList.toggle('extended');
-})
+});

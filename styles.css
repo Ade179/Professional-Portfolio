@@ -79,7 +79,7 @@ html {
     text-decoration: none;
   }
 
-  .nav-list>a {
+  .nav-list > a {
     font-size: 32px;
     font-family: 'Inter', sans-serif;
   }
@@ -257,12 +257,12 @@ html {
   .trackkeeping {
     width: 259px;
     height: 82px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .close-button {
@@ -287,21 +287,19 @@ html {
     padding: 16px;
     gap: 24px;
     width: 343px;
-    left: calc(50% - 343px/2);
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
-    font-family: 'Poppins';
+    left: calc(50% - 343px / 2);
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
-    color: #3C3A39;
-
-
+    color: #3c3a39;
   }
 
   .img-popup {
     width: 311px;
-    height: 220px
+    height: 220px;
   }
 
   #popup-image {
@@ -334,7 +332,7 @@ html {
     padding: 12px;
     height: 48px;
     width: 134px;
-    background: #FF6B00;
+    background: #ff6b00;
     border: none;
     gap: 3px;
   }
@@ -351,7 +349,7 @@ html {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .source-link {
@@ -364,11 +362,10 @@ html {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-
+    color: #fff;
   }
 
-  .fa-github:before {
+  .fa-github::before {
     content: "\f09b";
     color: #fff;
   }
@@ -906,7 +903,6 @@ html {
 
 /* Desktop Verion styling starts below: */
 @media screen and (min-width: 769px) {
-
   * {
     box-sizing: border-box;
     margin: 0;
@@ -1558,7 +1554,6 @@ html {
     gap: 24px;
   }
 
-
   .desktpopupcontainer {
     position: fixed;
     top: 0;
@@ -1580,7 +1575,7 @@ html {
     padding: 16px;
     height: 80%;
     width: 80%;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
   .desktpopup-header {
@@ -1591,12 +1586,12 @@ html {
   .deskttrackkeeping {
     width: 259px;
     height: 82px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .desktclose-button {
@@ -1605,11 +1600,10 @@ html {
     transform: rotate(45deg);
     position: absolute;
     top: 5rem;
-    right: 150px;
+    right: 250px;
     cursor: pointer;
     transition: font-size ease-in-out 0.75s;
   }
-
 
   .Ddesktopnewlang {
     padding-bottom: 2%;
@@ -1625,22 +1619,20 @@ html {
     padding: 16px;
     gap: 24px;
     width: 100px;
-    left: calc(50% - 343px/2);
-    background: #FFFFFF;
-    border: 1px solid #DFE1E6;
-    font-family: 'Poppins';
+    left: calc(50% - 343px / 2);
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
-    color: #3C3A39;
-
+    color: #3c3a39;
   }
 
   .desktimg-popup {
     width: 550px;
-    height: 300px;
+    height: 330px;
     top: 156px;
-
   }
 
   .desktpicturefttext {
@@ -1650,19 +1642,18 @@ html {
 
   .desktthetxt {
     width: 424px;
-
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+    letter-spacing: 1px;
   }
 
   .desktlivedisplay {
     display: flex;
     gap: 19px;
-
   }
 
   .desktcardbutton1 {
@@ -1673,7 +1664,7 @@ html {
     padding: 12px;
     height: 48px;
     width: 134px;
-    background: #FF6B00;
+    background: #ff6b00;
     border: none;
     gap: 3px;
   }
@@ -1690,7 +1681,7 @@ html {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .desktsource-link {
@@ -1703,15 +1694,10 @@ html {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-
+    color: #fff;
   }
 
-  .desktthetxt {
-    letter-spacing: 1px;
-  }
-
-  .fa-github:before {
+  .fa-github::before {
     content: "\f09b";
     color: #fff;
   }
@@ -1732,10 +1718,8 @@ html {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
-
+    color: #172b4d;
   }
-
 }
 
 .name:hover {
@@ -1763,4 +1747,4 @@ html {
 
 
 
-/*new styling for desktop pop-up*/
+/* new styling for desktop pop-up */
