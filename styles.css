@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
- }
+}
 
 html {
   scroll-behavior: smooth;
@@ -1567,8 +1567,11 @@ html {
     left: 0;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.7);
-    /* display: none; */
+    display: none;
+  }
 
+  .expanded {
+    display: block;
   }
 
   .desktmodalwindowcontainer {
@@ -1717,12 +1720,6 @@ html {
     display: none;
   }
 
-  .expanded {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .desktopclick {
     display: block;
   }
@@ -1739,9 +1736,6 @@ html {
 
   }
 
-  .desktpopupcontainer.desktopclicks {
-    display: none;
-  }
 }
 
 .name:hover {
