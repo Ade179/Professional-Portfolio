@@ -1091,8 +1091,7 @@ html {
 
   #yellow:hover {
     background-color: yellow;
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
+    
   }
 
   #desktop-layout {
@@ -1563,6 +1562,7 @@ html {
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
+    backdrop-filter: blur (30px);
   }
 
   .expanded {
