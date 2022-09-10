@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.error {
+  display: block;
+  color: red;
+  font-size: 20px;
+  transition: ease-in-out 0.5s;
+}
+
 @media (min-width: 0) and (max-width: 768px) {
   .header {
     background: #3c3a39;
@@ -1191,7 +1198,7 @@ html {
     justify-content: flex-start;
     margin-left: 16px;
     gap: 24px;
-    padding-top: 30px;
+    padding-top: 15%;
   }
 
   #first {
