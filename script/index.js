@@ -264,7 +264,7 @@ function valid() {
     document.querySelector('.error').textContent = '';
     return true;
   }
-  document.querySelector('.error').textContent = 'Email address should be in Lowercase.';
+  document.querySelector('.error').textContent = 'Email address should always be in Lowercase.';
   return false;
 }
 
