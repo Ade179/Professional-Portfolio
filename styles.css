@@ -1198,7 +1198,7 @@ html {
     justify-content: flex-start;
     margin-left: 16px;
     gap: 24px;
-    padding-top: 30px;
+    padding-top: 15%;
   }
 
   #first {
