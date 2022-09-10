@@ -269,13 +269,10 @@ function valid() {
 }
 
 // stop button default action
-<<<<<<< HEAD
-=======
 const form = document.querySelector('form');
 form.addEventListener('submit', (event) => {
   if (valid() === false) {
     event.preventDefault();
   }
 });
->>>>>>> 190ad7c44602fdc2476c5cbc28dbb3b9fd254f9b
 
