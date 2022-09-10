@@ -1045,6 +1045,7 @@ html {
     color: black;
     border: 0.5px solid #212121;
     width: 670px;
+    height: 0;
   }
 
   .container1 {
