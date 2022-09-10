@@ -31,99 +31,102 @@ const projectsArray = [{
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
 
 },
-{
-  id: 'Card2',
-  title: 'Professional Art Printing Data',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-
-},
-{
-  id: 'Card3',
-  title: 'Professional Art Printing Data',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-},
-
-{
-  id: 'Card4',
-  title: 'Professional Art Printing Data',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-},
-{
-  id: 'Card5',
-  title: 'Data Dashboard Healthcare',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-},
-{
-  id: 'Card6',
-  title: 'Website Portfolio',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-},
-{
-  id: 'Card7',
-  title: 'Data Dashboard Healthcare',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  deskDescription: '',
-  image: './images/placeholder.png',
-  deskImage: './images/placeholder.png',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
-  seeSource: 'https://github.com/Ade179/Professional-Portfolio',
-},
 ];
+
+const cardsArray = [
+  {
+    id: 'Card2',
+    title: 'Professional Art Printing Data',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+
+  },
+  {
+    id: 'Card3',
+    title: 'Professional Art Printing Data',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+  },
+
+  {
+    id: 'Card4',
+    title: 'Professional Art Printing Data',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+  },
+  {
+    id: 'Card5',
+    title: 'Data Dashboard Healthcare',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+  },
+  {
+    id: 'Card6',
+    title: 'Website Portfolio',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+  },
+  {
+    id: 'Card7',
+    title: 'Data Dashboard Healthcare',
+    description: `A daily section of privately personalized reads; no accounts or signups required.
+                This has been the industry's standard dummy text ever since the 1500s, when an
+                unknown printer took a standard dummy text.`,
+    deskDescription: '',
+    image: './images/placeholder.png',
+    deskImage: './images/placeholder.png',
+    languages1: 'css',
+    languages2: 'html',
+    languages3: 'javascript',
+    seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+    seeSource: 'https://github.com/Ade179/Professional-Portfolio',
+  },
+]
 
 // Close Pop up
 const closePopup = document.querySelector('.close-button');
@@ -145,49 +148,6 @@ const jsArray = document.querySelectorAll('.js');
 jsArray[0].textContent = projectsArray[0].languages1;
 jsArray[1].textContent = projectsArray[0].languages2;
 jsArray[2].textContent = projectsArray[0].languages3;
-
-// The texts for the placeholder cards
-
-const cardholderstitle = document.querySelectorAll('#cont-header1');
-cardholderstitle[0].textContent = projectsArray[1].title;
-cardholderstitle[1].textContent = projectsArray[1].title;
-cardholderstitle[2].textContent = projectsArray[1].title;
-const cardholdertext = document.querySelectorAll('#cont-text');
-cardholdertext[0].textContent = projectsArray[1].description;
-cardholdertext[1].textContent = projectsArray[1].description;
-cardholdertext[2].textContent = projectsArray[1].description;
-const btn2 = document.querySelectorAll('#btn2');
-btn2[0].textContent = projectsArray[1].languages1;
-btn2[1].textContent = projectsArray[1].languages2;
-btn2[2].textContent = projectsArray[1].languages3;
-btn2[3].textContent = projectsArray[1].languages1;
-btn2[4].textContent = projectsArray[1].languages2;
-btn2[5].textContent = projectsArray[1].languages3;
-btn2[6].textContent = projectsArray[1].languages1;
-btn2[7].textContent = projectsArray[1].languages2;
-btn2[8].textContent = projectsArray[1].languages3;
-btn2[9].textContent = projectsArray[1].languages1;
-btn2[10].textContent = projectsArray[1].languages2;
-btn2[11].textContent = projectsArray[1].languages3;
-btn2[12].textContent = projectsArray[1].languages1;
-btn2[13].textContent = projectsArray[1].languages2;
-btn2[14].textContent = projectsArray[1].languages3;
-btn2[15].textContent = projectsArray[1].languages1;
-btn2[16].textContent = projectsArray[1].languages2;
-btn2[17].textContent = projectsArray[1].languages3;
-
-const Newcardholdertitile = document.querySelectorAll('#cont-header2');
-Newcardholdertitile[0].textContent = projectsArray[4].title;
-Newcardholdertitile[1].textContent = projectsArray[4].title;
-const Newcardholdertext = document.querySelectorAll('#cont-text2');
-Newcardholdertext[0].textContent = projectsArray[4].description;
-Newcardholdertext[1].textContent = projectsArray[4].description;
-const latestcardholdertitle = document.querySelector('#cont-header3');
-latestcardholdertitle.textContent = projectsArray[5].title;
-const latestcardholdertext = document.querySelector('#cont-text3');
-latestcardholdertext.textContent = projectsArray[6].description;
-
-// Pop up for the first first card
 
 const firstCardPopUp = document.querySelector('.btnsettings');
 firstCardPopUp.addEventListener('click', () => {
@@ -223,206 +183,77 @@ firstCardPopUp.addEventListener('click', () => {
   document.querySelector('.popupcontainer').classList.toggle('extended');
 });
 
-// for second card
-const newCardPopup = document.querySelectorAll('.oversight');
+// Dynamic card section 
+const myworks = document.querySelector('.MyWorks')
+cardsArray.forEach(list => {
+  const div1 = document.createElement('div')
+  div1.classList.add('container')
+  const div2 = document.createElement('div')
+  div2.classList.add('container1')
+  const h2 = document.createElement('h2')
+  h2.classList.add('cont-header')
+  h2.innerText = list.title
+  const p = document.createElement('p')
+  p.classList.add('cont-text')
+  p.innerText = list.description
+  const ul = document.createElement('ul')
+  ul.classList.add('lang')
+  const li1 = document.createElement('li')
+  li1.classList.add('lingos')
+  li1.innerText = list.languages1
+  const li2 = document.createElement('li')
+  li2.classList.add('lingos')
+  li2.innerText = list.languages2
+  const li3 = document.createElement('li')
+  li3.classList.add('lingos')
+  li3.innerText = list.languages3
+  const button = document.createElement('button')
+  button.classList.add('oversight')
+  button.innerText = 'see project'
+  div2.appendChild(h2)
+  div2.appendChild(p)
+  ul.appendChild(li1)
+  ul.appendChild(li2)
+  ul.appendChild(li3)
+  div2.appendChild(ul)
+  div1.appendChild(div2)
+  div1.appendChild(button)
+  myworks.appendChild(div1)
 
-newCardPopup[0].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[1].title;
+  button.addEventListener('click', () => {
+    const trackkeeping = document.querySelector('.trackkeeping');
+    trackkeeping.textContent = list.title;
 
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[1].title;
+    const trackkeepingDesk = document.querySelector('.desktexts');
+    trackkeepingDesk.textContent = list.title;
 
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
+    const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
+    desknewLangDesk[0].textContent = list.languages1;
+    desknewLangDesk[1].textContent = list.languages2;
+    desknewLangDesk[2].textContent = list.languages3;
 
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
+    const desknewLang = document.querySelectorAll('.desknewLang');
+    desknewLang[0].textContent = list.languages1;
+    desknewLang[1].textContent = list.languages2;
+    desknewLang[2].textContent = list.languages3;
 
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[1].image;
+    const imgpopup = document.querySelector('.img-popup');
+    imgpopup.src = list.image;
 
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[1].deskImage;
+    const imgpopupDesk = document.querySelector('.desktimg-popup');
+    imgpopupDesk.src = list.deskImage;
 
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
+    const thetxt = document.querySelector('.thetxt');
+    thetxt.textContent = list.description;
 
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
+    const thetxtDesk = document.querySelector('.desktthetxt');
+    thetxtDesk.textContent = list.description;
 
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
+    document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
+    document.querySelector('.popupcontainer').classList.toggle('extended');
+  });
 
-newCardPopup[1].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[2].title;
-
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[2].title;
-
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
-
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
-
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[2].image;
-
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[1].deskImage;
-
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
-
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
-
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
-
-newCardPopup[2].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[3].title;
-
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[3].title;
-
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
-
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
-
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[3].image;
-
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[2].deskImage;
-
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
-
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
-
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
-
-newCardPopup[3].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[4].title;
-
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[4].title;
-
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
-
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
-
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[4].image;
-
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[3].deskImage;
-
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
-
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
-
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
-
-newCardPopup[4].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[5].title;
-
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[5].title;
-
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
-
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
-
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[5].image;
-
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[4].deskImage;
-
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
-
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
-
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
-
-newCardPopup[5].addEventListener('click', () => {
-  const trackkeeping = document.querySelector('.trackkeeping');
-  trackkeeping.textContent = projectsArray[6].title;
-
-  const trackkeepingDesk = document.querySelector('.desktexts');
-  trackkeepingDesk.textContent = projectsArray[6].title;
-
-  const desknewLangDesk = document.querySelectorAll('.DdesknewLang');
-  desknewLangDesk[0].textContent = projectsArray[0].languages1;
-  desknewLangDesk[1].textContent = projectsArray[0].languages2;
-  desknewLangDesk[2].textContent = projectsArray[0].languages3;
-
-  const desknewLang = document.querySelectorAll('.desknewLang');
-  desknewLang[0].textContent = projectsArray[0].languages1;
-  desknewLang[1].textContent = projectsArray[0].languages2;
-  desknewLang[2].textContent = projectsArray[0].languages3;
-
-  const imgpopup = document.querySelector('.img-popup');
-  imgpopup.src = projectsArray[6].image;
-
-  const imgpopupDesk = document.querySelector('.desktimg-popup');
-  imgpopupDesk.src = projectsArray[5].deskImage;
-
-  const thetxt = document.querySelector('.thetxt');
-  thetxt.textContent = projectsArray[0].description;
-
-  const thetxtDesk = document.querySelector('.desktthetxt');
-  thetxtDesk.textContent = projectsArray[0].description;
-
-  document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
-  document.querySelector('.popupcontainer').classList.toggle('extended');
-});
+})
 
 // form validation
 
