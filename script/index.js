@@ -126,7 +126,7 @@ const cardsArray = [
     seeLive: 'https://ade179.github.io/Professional-Portfolio/',
     seeSource: 'https://github.com/Ade179/Professional-Portfolio',
   },
-]
+];
 
 // Close Pop up
 const closePopup = document.querySelector('.close-button');
@@ -183,42 +183,42 @@ firstCardPopUp.addEventListener('click', () => {
   document.querySelector('.popupcontainer').classList.toggle('extended');
 });
 
-// Dynamic card section 
-const myworks = document.querySelector('.MyWorks')
-cardsArray.forEach(list => {
-  const div1 = document.createElement('div')
-  div1.classList.add('container')
-  const div2 = document.createElement('div')
-  div2.classList.add('container1')
-  const h2 = document.createElement('h2')
-  h2.classList.add('cont-header')
-  h2.innerText = list.title
-  const p = document.createElement('p')
-  p.classList.add('cont-text')
-  p.innerText = list.description
-  const ul = document.createElement('ul')
-  ul.classList.add('lang')
-  const li1 = document.createElement('li')
-  li1.classList.add('lingos')
-  li1.innerText = list.languages1
-  const li2 = document.createElement('li')
-  li2.classList.add('lingos')
-  li2.innerText = list.languages2
-  const li3 = document.createElement('li')
-  li3.classList.add('lingos')
-  li3.innerText = list.languages3
-  const button = document.createElement('button')
-  button.classList.add('oversight')
-  button.innerText = 'see project'
-  div2.appendChild(h2)
-  div2.appendChild(p)
-  ul.appendChild(li1)
-  ul.appendChild(li2)
-  ul.appendChild(li3)
-  div2.appendChild(ul)
-  div1.appendChild(div2)
-  div1.appendChild(button)
-  myworks.appendChild(div1)
+// Dynamic card section
+const myworks = document.querySelector('.MyWorks');
+cardsArray.forEach((list) => {
+  const div1 = document.createElement('div');
+  div1.classList.add('container');
+  const div2 = document.createElement('div');
+  div2.classList.add('container1');
+  const h2 = document.createElement('h2');
+  h2.classList.add('cont-header');
+  h2.innerText = list.title;
+  const p = document.createElement('p');
+  p.classList.add('cont-text');
+  p.innerText = list.description;
+  const ul = document.createElement('ul');
+  ul.classList.add('lang');
+  const li1 = document.createElement('li');
+  li1.classList.add('lingos');
+  li1.innerText = list.languages1;
+  const li2 = document.createElement('li');
+  li2.classList.add('lingos');
+  li2.innerText = list.languages2;
+  const li3 = document.createElement('li');
+  li3.classList.add('lingos');
+  li3.innerText = list.languages3;
+  const button = document.createElement('button');
+  button.classList.add('oversight');
+  button.innerText = 'see project';
+  div2.appendChild(h2);
+  div2.appendChild(p);
+  ul.appendChild(li1);
+  ul.appendChild(li2);
+  ul.appendChild(li3);
+  div2.appendChild(ul);
+  div1.appendChild(div2);
+  div1.appendChild(button);
+  myworks.appendChild(div1);
 
   button.addEventListener('click', () => {
     const trackkeeping = document.querySelector('.trackkeeping');
@@ -252,7 +252,4 @@ cardsArray.forEach(list => {
     document.querySelector('.desktpopupcontainer').classList.toggle('expanded');
     document.querySelector('.popupcontainer').classList.toggle('extended');
   });
-
-})
-
-
+});
