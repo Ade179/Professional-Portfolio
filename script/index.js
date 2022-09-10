@@ -269,10 +269,4 @@ function valid() {
 }
 
 // stop button default action
-const form = document.querySelector('form');
-form.addEventListener('submit', (e) => {
-  if (valid() === false) {
-    e.preventDefault();
-  }
-});
 
