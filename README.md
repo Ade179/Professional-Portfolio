@@ -2,7 +2,7 @@
 
 # Professional Portfolio
 
-> This project helps the mastery of Linters and flexbox
+> This project helps the mastery of Linters and flexbox. It is a web-based portfolio built for mobile and desktop screens using media query and CSS. 
 
 
 ## Built With
