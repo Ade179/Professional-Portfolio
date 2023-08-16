@@ -21,13 +21,13 @@ const projectsArray = [{
                 This has been the industry's standard dummy text ever since the 1500s, when an
                 unknown printer took a standard dummy text.`,
   deskDescription: 'Keeping track of hundreds  of components website',
-  image: './images/bigyellow.png',
-  deskImage: './images/bigyellow.png',
+  image: './images/mobile.png',
+  deskImage: './images/mobile.png',
   desktexts: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
   languages1: 'css',
   languages2: 'html',
   languages3: 'javascript',
-  seeLive: 'https://ade179.github.io/Professional-Portfolio/',
+  seeLive: 'http://budget-app-g4zl.onrender.com',
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
 
 },
