@@ -1634,8 +1634,8 @@ html {
   }
 
   .desktimg-popup {
-    width: 550px;
-    height: 360px;
+    width: 363px;
+    height: 317px;
     top: 156px;
   }
 
@@ -1726,6 +1726,8 @@ html {
     line-height: 44px;
     color: #172b4d;
   }
+
+
 }
 
 .name:hover {
