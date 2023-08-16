@@ -16,17 +16,19 @@ navigator.forEach((links) => {
 
 const projectsArray = [{
   id: 'Card1',
-  title: 'Multi-Post Stories',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
+  title: 'Rails Budget App',
+  description: `This app focuses on planning a budget for any category a user chooses. it could be music,
+                sports, entertainment etc. It helps plan how much
+                is needed to fulfil a category.`,
   deskDescription: 'Keeping track of hundreds  of components website',
   image: './images/mobile.png',
   deskImage: './images/mobile.png',
-  desktexts: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-  languages1: 'css',
-  languages2: 'html',
-  languages3: 'javascript',
+  desktexts: `This app focuses on planning a budget for any category a user chooses. it could be music,
+              sports, entertainment etc. It helps plan how much
+              is needed to fulfil a category.`,
+  languages1: 'Ruby on Rails',
+  languages2: 'Ruby',
+  languages3: 'Rspec',
   seeLive: 'http://budget-app-g4zl.onrender.com',
   seeSource: 'https://github.com/Ade179/Professional-Portfolio',
 
@@ -148,7 +150,7 @@ const jsArray = document.querySelectorAll('.js');
 jsArray[0].textContent = projectsArray[0].languages1;
 jsArray[1].textContent = projectsArray[0].languages2;
 jsArray[2].textContent = projectsArray[0].languages3;
-
+3
 const firstCardPopUp = document.querySelector('.btnsettings');
 firstCardPopUp.addEventListener('click', () => {
   const trackkeeping = document.querySelector('.trackkeeping');

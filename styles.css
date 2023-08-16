@@ -1057,12 +1057,6 @@ html {
     height: 445px;
   }
 
-  .container1:hover {
-    width: 400px;
-    height: 400px;
-    transition: width 2s, height 4s;
-  }
-
   .for-desk {
     margin-left: 10%;
     padding: 0;
@@ -1178,7 +1172,7 @@ html {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 24px;
     color: #fff;
     margin-bottom: 24px;
