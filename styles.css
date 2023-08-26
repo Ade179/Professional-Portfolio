@@ -142,6 +142,7 @@ html {
   .active .hamburger::before {
     transform: rotate(90deg) translateX(-6px);
     background-color: #67798e;
+    
   }
 
   .for-desk {

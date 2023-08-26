@@ -36,7 +36,7 @@ const projectsArray = [{
 const cardsArray = [
   {
     id: 'Card2',
-    title: 'Professional Art Printing Data',
+    title: 'AALA',
     description: `A daily section of privately personalized reads; no accounts or signups required.
                 This has been the industry's standard dummy text ever since the 1500s, when an
                 unknown printer took a standard dummy text.`,
