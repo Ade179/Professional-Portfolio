@@ -860,8 +860,8 @@ html {
   }
 
   .btz:active {
-    width: 69px;
-    height: 24px;
+    /* width: 69px;
+    height: 24px; */
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -1497,8 +1497,6 @@ html {
   }
 
   .btz:active {
-    width: 69px;
-    height: 24px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
